@@ -23,6 +23,13 @@ Currently, this feature is in the development stage 🛠️. I haven't added thi
 
 
 
+## use case of helper.ts
+
+This code is a utility for determining the current app based on the subdomain of the website. It uses the getSubdomain function to extract the subdomain from the window's location, and then it checks the APPS array to find the corresponding app. If no subdomain is present or if the subdomain is not found, it defaults to the main app. 🌐✨
+
+## use case of constants.ts
+
+This code defines an array named APPS that contains objects representing different subdomains and their corresponding React routers. Each object includes the subdomain name, the associated router component, and a boolean indicating whether it's the main app. The routers include AppRouter for the main domain ("www"), Client1Router for "client1" subdomain, and Client2Router for "client2" subdomain. 🌐🚀
 
 ## Tech Stack
 
