@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# RentOk-Assignment
 
-Currently, two official plugins are available:
+![Screenshot from 2023-11-19 14-59-05](https://github.com/sarthaksharma27/RentOk-Assignment/assets/130299888/d22e9dcc-a3a7-430b-8439-a19757eede5b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simplified web app where anyone can list their property, implements subdomain (multi-tenant) routing. Built with the Reactjs, Typescript etc, this application allows users to manage their property seamlessly.
 
-## Expanding the ESLint configuration
+# Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Color Scheme:** Each subdomain should have its own distinct color scheme.
+- **Content:** Different subdomains may display different textual content on the page.
+- **Images:** Customizable images associated with each subdomain.
+- **Styles:** Basic styling such as fonts, margins, etc.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Future plan
+
+In the future, when there are many subdomains, I have added a form. The first step is user authentication 🔐. Once authenticated, if there is a paid plan for listing 💼 (subject to company policies), users can provide subdomain details and other necessary information. This information will be dynamically added to our system ⚙️.
+
+Currently, this feature is in the development stage 🛠️. I haven't added this due to limited time availability ⏳.
+
+
+
+
+
+
+## Tech Stack
+
+- [React.js](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+
+# Installation
+
+
+```bash
+  npm install
+  npm run dev
 ```
+Visit http://localhost:5173 for the main domain.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+For the subdomain, go to http://client1.localhost:5137
+
+For the subdomain, go to http://client2.localhost:5137
+
+
+  
+
+    
