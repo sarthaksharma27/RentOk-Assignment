@@ -3,7 +3,7 @@
 
 ![Screenshot from 2023-11-19 14-59-05](https://github.com/sarthaksharma27/RentOk-Assignment/assets/130299888/d22e9dcc-a3a7-430b-8439-a19757eede5b)
 
-A simplified web app where anyone can list their property, implements subdomain (multi-tenant) routing. Built with the Reactjs, Typescript etc, this application allows users to manage their property seamlessly.
+A simplified web app where anyone can list their property, implements subdomain (multi-tenant) routing. Built with the Reactjs, Typescript etc, this application allows users to manage their property seamlessly. The goal is to create a dynamic and customizable web application where the appearance and content of the page change based on the subdomain accessed.
 
 # Features
 
