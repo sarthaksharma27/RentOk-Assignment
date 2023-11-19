@@ -44,7 +44,7 @@ export const AppHome: React.FC = () => {
   );
 };
 
-export const ClientHome: React.FC = () => {
+export const Client1Home: React.FC = () => {
   return (
     <div className="app-container">
       <h1 className="main-heading">client1 listing</h1>
@@ -54,3 +54,15 @@ export const ClientHome: React.FC = () => {
     </div>
   );
 };
+
+export const Client2Home: React.FC = () => {
+  return (
+    <div className="app-container">
+      <h1 className="main-heading">client2 listing</h1>
+      <p className="app-description">This is the best budget Home</p>
+      <p>Price: 4000</p>
+      <img className="app-image" src="./client2.jpeg" alt="App Image" />
+    </div>
+  );
+};
+

@@ -1,4 +1,4 @@
-import { ClientRouter, AppRouter } from "../App";
+import { Client1Router, Client2Router, AppRouter } from "../App";
 
 export const APPS = [
     {
@@ -8,7 +8,12 @@ export const APPS = [
     },
     {
         subdomain: "client1",
-        app: ClientRouter,
+        app: Client1Router,
+        main: false
+    },
+    {
+        subdomain: "client2",
+        app: Client2Router,
         main: false
     }
 ]
