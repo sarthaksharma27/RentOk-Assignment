@@ -1,0 +1,85 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.main-button {
+  background-color: #4caf50;
+  position: fixed;
+  top: 70px;
+  left: 80px;
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 1.5em; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.main-button:hover {
+  background-color: #45a049; 
+}
+
+.app-description {
+  color: #555;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.app-image {
+  max-width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* //Form css */
+
+.app-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50; 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 1em; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
